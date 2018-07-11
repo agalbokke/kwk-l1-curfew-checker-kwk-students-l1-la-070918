@@ -14,7 +14,7 @@ def complex_curfew_checker(time1)
 time1 == 11
 if time1 > 11
   puts "You are in trouble, better get home quick!"
-elsif time = 11 
+elsif time == 11 
   puts "It's time to apparate"
 else time < 11
   puts "Keep having fun!"
@@ -26,7 +26,7 @@ def deluxe_curfew_checker(curfew)
  curfew == 10
 if curfew > 11
   puts "You are in trouble, better get home quick!"
-elsif curfew = 11 
+elsif curfew == 11 
   puts "It's time to apparate"
 else curfew < 11
   puts "Keep having fun!"
